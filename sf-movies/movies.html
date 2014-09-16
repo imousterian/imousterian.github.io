@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SF Heatmap</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"/>
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/sf_custom.css" rel="stylesheet" >
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- top nav bar -->
+
+    <div class = "navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+        </div>
+    </div>
+
+    <!-- main -->
+
+    <div class = "container">
+        <div class="row row-offcanvas row-offcanvas-left">
+            <h1 class="page-header">San Francisco Movie Genres</h1>
+
+            <!-- left sidebar -->
+            <div class="col-sm-1 sidebar-offcanvas" id="sidebar" role="navigation" style="width: 8%" >
+                <div id="years" class="control">
+                    <h3 id="years_heading">Years</h3>
+                        <div class="control-links">
+                            <a id="all" class="active all">All</a>
+                            <a id="tens" class="A">1910s</a>
+                            <a id="twenties" class="A">1920s</a>
+                            <a id="thirties" class="A">1930s</a>
+                            <a id="forties" class="A">1940s</a>
+                            <a id="fifties" class="A">1950s</a>
+                            <a id="sixties" class="A">1960s</a>
+                            <a id="seventies" class="A">1970s</a>
+                            <a id="eighties" class="A">1980s</a>
+                            <a id="nineties" class="A">1990s</a>
+                            <a id="zeroes" class="A">2000s</a>
+                            <a id="zerotens" class="A">2010s</a>
+                        </div>
+                </div>
+            </div>
+
+            <!-- main middle -->
+            <div class="col-sm-11" style="width: 92%; padding-bottom:15px">
+                <div class="row">
+                    <div class ="span5" style="float-left">
+                        <div id="years" class="control">
+                            <h3>Genre</h3>
+                            <select class="dropdowns"></select>
+                        </div>
+                    </div>
+                    <div class = "span3 offset5" >
+                        <div id="zooms" class="control">
+                            <h3>Zoom to</h3>
+                            <div class="control-links">
+                                <a id="A1" class="zoom_map">Map</a> |
+                                <a id="A2" class="zoom_graph">Graph</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "wrapper"></div>
+            </div>
+        </div>
+    </div> <!-- end of container -->
+
+</div>
+
+    <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"> </script>
+    <script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"> </script>
+    <script type="text/javascript" src="d3/d3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/cropped_geodata.js"></script>
+    <script type="text/javascript" src="js/cropped_seriation_data.js"></script>
+    <script type="text/javascript" src="js/scatterplot.js"></script>
+    <script type="text/javascript" src="js/sf_script.js"></script>
+
+</body>
+</html>

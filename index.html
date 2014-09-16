@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="imousterian.github.io : ">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="description" content="imousterian.github.io : ">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/custom.css">
+        <title>imousterian main</title>
+    </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>imousterian.github.io</title>
-  </head>
-
-  <body>
+    <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
+    <div id="header_wrapper" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/imousterian">View on GitHub</a>
-
-          <h1 id="project_title">imousterian.github.io</h1>
-          <h2 id="project_tagline"></h2>
-
+            <div id ="header_image"></div>
+            <h1 id="header_title">marina v sergeyeva</h1>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <div id="main_content_wrapper" class="outer">
+        <section id="main_content_body" class="inner">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+            <h3 class="centered"><a name="about-imousterian" class="anchor" href="#about-imousterian"><span class="octicon octicon-link"></span></a>From Stone Tools To Web Tools</h3>
+            <hr class="separator_primary style2">
+            <p>Whether stone or digital, it's all about making tools for good. And continious learning.</p>
+            <p>
+                I started out as an archaeologist, digital mapper and a modeler of agent-based social systems.
+                I built simulation models, data processing and visualization tools for scientists working with demographic data.
+                Leveraging my systems-thinking and coding skills for software development was a natural career transition.
+            </p>
+            <p> If you would like to learn more about me, check out my <a href="http://imousterian.github.io/resume.html">resume</a>. </p>
+            <p> PS. I keep my flint-knapping skills fresh in case of a future zombie apocalypse. Click <a href="http://imousterian.blogspot.com/2014/08/scraper-analysis.html"> here </a> to learn about different types of scrapers.</p>
+            <br />
+            <h3 class="centered"><a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a>Projects</h3>
+             <hr class="separator_primary style2">
+            <h5>
+                <a name="speechy" class="anchor" href="#speechy"><span class="octicon octicon-link"></span></a>
+                <a href="https://speechy.herokuapp.com">SPEECHY</a>
+                <span class="github">(<a href="https://github.com/imousterian/Speechy">Github</a>)</span>
+            </h5>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+            <p> My biggest Ruby on Rails app for the moment, inspired by my friend, - a speech language pathologist, - who frequently works with children with autism spectrum disorders.
+                These children have difficulty in recognizing human emotions, and the app allows to perform training sessions, and record and analyze students' success over time.
+                The app also allows the users to share training data (currently, images only).
+            </p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+            <p> In the future, I plan on adding additional features to the app - for example, videos and sounds.</p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+            <p style="padding-bottom:30px;">
+                <span class="tech-chars">Built with:</span> Ruby, Rails 4.1, jQuery, Devise, Paperclip, Bootstrap, Javascript, D3.js.
+            </p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+            <hr class="separator_primary style3">
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+            <h5><a name="kanban" class="anchor" href="#kanban"><span class="octicon octicon-link"></span></a>
+                <a href="https://kanbanist.herokuapp.com/">Kanban-Board</a>
+                <span class="github">(<a href="https://github.com/imousterian/KanbanBoard">Github</a>)</span>
+            </h5>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+            <p> A Ruby on Rails app for creating tasks and managing their progress. </p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+            <p style="padding-bottom:30px;">
+                <span class="tech-chars">Built with:</span> Ruby, Rails 4.0, jQuery, Bootstrap, Javascript.
+            </p>
+                <hr class="separator_primary style3">
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+            <h5><a name="odin-projects" class="anchor" href="#odin-projects"><span class="octicon octicon-link"></span></a>
+                <a href="https://github.com/imousterian/OdinProject">The Odin Project</a>
+                <span class="github">(<a href="https://github.com/imousterian/OdinProject">Github</a>)</span>
+            </h5>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+            <p style="padding-bottom:30px;"> Projects completed as a part of <a href="http://www.theodinproject.com/">The Odin Project</a>, a curriculum for learning web development.</p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+            <hr class="separator_primary style3">
+
+            <h5><a name="sf-movies" class="anchor" href="#sf-movies"><span class="octicon octicon-link"></span></a>
+                <a href="http://imousterian.github.io/sf-movies/movies.html">SF Movies Viz</a>
+                <span class="github">(<a href="https://github.com/imousterian/SF-movies">Github</a>)</span>
+            </h5>
+
+            <p> Visualizations of San Francisco movie data by genre, year and location. Visualizations include point density maps by year and genre, and a seriation graph of how genres were changing over time.</p>
+            <p> For best results, view on a screen with at least 700px width.</p>
+            <p style="padding-bottom:30px;">
+                <span class="tech-chars">Built with:</span> D3.js, Leaflet.js, jQuery, Bootstrap, Javascript.
+            </p>
+
+            <hr class="separator_primary style3">
+
       </section>
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div id="footer_wrapper" class="outer">
+        <footer class="inner">
+            <ul id="footer_uls">
+                <li><a href="http://imousterian.github.io/resume.html">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/mvsergeyeva">LinkedIn</a></li>
+                <li><a href="https://github.com/imousterian">GitHub</a></li>
+                <li><a href="http://imousterian.blogspot.com/">Blogger</a></li>
+            </ul>
+        </footer>
     </div>
-
-    
-
-  </body>
+    </body>
 </html>

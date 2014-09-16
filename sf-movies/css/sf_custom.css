@@ -1,0 +1,168 @@
+/* map and general configs */
+body {
+    padding-top: 50px;
+    margin: 0;
+}
+
+.title-header{
+    height: 26px;
+}
+
+.wrapper{
+    width: 100%;
+    height:500px;
+    svg{
+        height:500px;
+    }
+}
+
+.thismap{
+    height: 500px;
+    float: left;
+}
+
+/* sidebar and topbar links */
+.control h3{
+    text-align: center;
+    margin: 0;
+    padding:0;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #444;
+}
+
+#years{
+    float:left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#zooms{
+    float:right;
+    margin-right: 15px;
+}
+
+div.control-links{
+    margin: auto;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.control-links a{
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar{
+    margin-top: 60px;
+}
+
+#years_heading{
+    padding-bottom: 5px;
+}
+
+/* graph config */
+.axis text {
+  font: 12px sans-serif;
+}
+
+.x.axis text{
+    display: none;
+}
+
+.x.axis line{
+  stroke: lightgrey;
+  shape-rendering: crispEdges;
+}
+
+.axis path
+ {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.y.axis line{
+  stroke: grey;
+  shape-rendering: crispEdges;
+}
+
+circle:hover{
+    opacity : 0.8;
+}
+
+.dot {
+  stroke: #000;
+}
+
+/* tooltip table*/
+table.tiptable{
+  line-height: 14px;
+  width:100%;
+  margin: 0 0 0 0 ;
+  border-collapse:collapse;
+}
+
+
+tr{
+  display: table-row;
+  vertical-align: top;
+}
+
+td{
+  border-bottom: 1px solid #666;
+  line-height: 14px;
+  text-align:left;
+  padding:4px;
+}
+
+tbody{
+  display: table-row-group;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 180px;
+  padding: 7px;
+  font: 13px sans-serif;
+  background: #000;
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #666;
+  color: white;
+  font-family: "Josefin Sans";
+
+  pointer-events: none;
+}
+
+
+/* map legend */
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+
+

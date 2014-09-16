@@ -53,13 +53,14 @@ body {
   color:#373737;
   background: #212121;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'Myriad Pro', 'Calibri', Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
+  margin: 0px;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -303,6 +304,9 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  position:absolute;
+  right: -80px;
+  bottom: 10px;
 }
 
 #project_tagline {
@@ -366,8 +370,6 @@ Full-Width Styles
   background: #212121;
 }
 
-
-
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -387,7 +389,7 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+    font-size: 32px;
   }
 
   h1 {
@@ -421,3 +423,4 @@ Small Device Styles
   }
 
 }
+
