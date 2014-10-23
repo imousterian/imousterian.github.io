@@ -117,7 +117,7 @@ ul {
     font-size: 42px;
     text-shadow: #111 0px 0px 10px;
     position:absolute;
-    right: 5px;
+    right: 120px;
     bottom: 0px;
 }
 
@@ -142,11 +142,11 @@ ul {
 #header_image {
     display: block;
     height: 100px;
-    width: 450px;
+    width: 485px;
     top:0;
     padding: 10px 0px 20px 0px;
     background: url('../images/tool_logo_normal.png') no-repeat;
-    margin-left:14%;
+    margin-left:12%;
 }
 
 #link1{
@@ -204,6 +204,9 @@ ul {
 
 .style3{
     width: 70%;
+    height: 1px;
+    border: 1px;
+    box-shadow: inset 0 0px 0px 0px #4c96cb;
     padding-bottom: 30px;
 }
 
@@ -247,7 +250,8 @@ p.pubs {
 .inner > ul {
     text-align: justify;
     padding-top: 10px;
-    width: 70%;
+    /*width: 70%;*/
+    width: 100%;
     margin: 0 auto;
 }
 .inner > ul > li{
